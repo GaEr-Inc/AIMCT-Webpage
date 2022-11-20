@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import './App.css'
+import Landing from './screens/Landing'
 
 function App() {
 
   return (
-    <div className="App">
-      <h1>Hello World 2</h1>
-    </div>
+    <>
+    <Landing/>
+    </>
   )
 }
 
